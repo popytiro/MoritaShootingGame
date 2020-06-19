@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDF4AF3C249B2CDF001CA4AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF4AF3B249B2CDF001CA4AA /* AppDelegate.swift */; };
+		BDF4AF3E249B2CDF001CA4AA /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = BDF4AF3D249B2CDF001CA4AA /* GameScene.sks */; };
+		BDF4AF40249B2CDF001CA4AA /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = BDF4AF3F249B2CDF001CA4AA /* Actions.sks */; };
+		BDF4AF42249B2CDF001CA4AA /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF4AF41249B2CDF001CA4AA /* GameScene.swift */; };
+		BDF4AF44249B2CDF001CA4AA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF4AF43249B2CDF001CA4AA /* GameViewController.swift */; };
+		BDF4AF47249B2CDF001CA4AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDF4AF45249B2CDF001CA4AA /* Main.storyboard */; };
+		BDF4AF49249B2CE8001CA4AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDF4AF48249B2CE8001CA4AA /* Assets.xcassets */; };
+		BDF4AF4C249B2CE8001CA4AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDF4AF4A249B2CE8001CA4AA /* LaunchScreen.storyboard */; };
+		BDF4AF57249B2CE9001CA4AA /* MoritaShootingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF4AF56249B2CE9001CA4AA /* MoritaShootingTests.swift */; };
+		BDF4AF62249B2CE9001CA4AA /* MoritaShootingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF4AF61249B2CE9001CA4AA /* MoritaShootingUITests.swift */; };
+		BDF4AF70249B86BD001CA4AA /* explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = BDF4AF6F249B86BD001CA4AA /* explosion.sks */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDF4AF53249B2CE9001CA4AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDF4AF30249B2CDF001CA4AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDF4AF37249B2CDF001CA4AA;
+			remoteInfo = MoritaShooting;
+		};
+		BDF4AF5E249B2CE9001CA4AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDF4AF30249B2CDF001CA4AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDF4AF37249B2CDF001CA4AA;
+			remoteInfo = MoritaShooting;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BDF4AF38249B2CDF001CA4AA /* MoritaShooting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoritaShooting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDF4AF3B249B2CDF001CA4AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDF4AF3D249B2CDF001CA4AA /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		BDF4AF3F249B2CDF001CA4AA /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		BDF4AF41249B2CDF001CA4AA /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		BDF4AF43249B2CDF001CA4AA /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		BDF4AF46249B2CDF001CA4AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDF4AF48249B2CE8001CA4AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDF4AF4B249B2CE8001CA4AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDF4AF4D249B2CE8001CA4AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDF4AF52249B2CE9001CA4AA /* MoritaShootingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoritaShootingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDF4AF56249B2CE9001CA4AA /* MoritaShootingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoritaShootingTests.swift; sourceTree = "<group>"; };
+		BDF4AF58249B2CE9001CA4AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDF4AF5D249B2CE9001CA4AA /* MoritaShootingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoritaShootingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDF4AF61249B2CE9001CA4AA /* MoritaShootingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoritaShootingUITests.swift; sourceTree = "<group>"; };
+		BDF4AF63249B2CE9001CA4AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDF4AF6F249B86BD001CA4AA /* explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = explosion.sks; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDF4AF35249B2CDF001CA4AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF4AF4F249B2CE9001CA4AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF4AF5A249B2CE9001CA4AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDF4AF2F249B2CDF001CA4AA = {
+			isa = PBXGroup;
+			children = (
+				BDF4AF3A249B2CDF001CA4AA /* MoritaShooting */,
+				BDF4AF55249B2CE9001CA4AA /* MoritaShootingTests */,
+				BDF4AF60249B2CE9001CA4AA /* MoritaShootingUITests */,
+				BDF4AF39249B2CDF001CA4AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDF4AF39249B2CDF001CA4AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDF4AF38249B2CDF001CA4AA /* MoritaShooting.app */,
+				BDF4AF52249B2CE9001CA4AA /* MoritaShootingTests.xctest */,
+				BDF4AF5D249B2CE9001CA4AA /* MoritaShootingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDF4AF3A249B2CDF001CA4AA /* MoritaShooting */ = {
+			isa = PBXGroup;
+			children = (
+				BDF4AF3B249B2CDF001CA4AA /* AppDelegate.swift */,
+				BDF4AF3D249B2CDF001CA4AA /* GameScene.sks */,
+				BDF4AF3F249B2CDF001CA4AA /* Actions.sks */,
+				BDF4AF41249B2CDF001CA4AA /* GameScene.swift */,
+				BDF4AF6F249B86BD001CA4AA /* explosion.sks */,
+				BDF4AF43249B2CDF001CA4AA /* GameViewController.swift */,
+				BDF4AF45249B2CDF001CA4AA /* Main.storyboard */,
+				BDF4AF48249B2CE8001CA4AA /* Assets.xcassets */,
+				BDF4AF4A249B2CE8001CA4AA /* LaunchScreen.storyboard */,
+				BDF4AF4D249B2CE8001CA4AA /* Info.plist */,
+			);
+			path = MoritaShooting;
+			sourceTree = "<group>";
+		};
+		BDF4AF55249B2CE9001CA4AA /* MoritaShootingTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDF4AF56249B2CE9001CA4AA /* MoritaShootingTests.swift */,
+				BDF4AF58249B2CE9001CA4AA /* Info.plist */,
+			);
+			path = MoritaShootingTests;
+			sourceTree = "<group>";
+		};
+		BDF4AF60249B2CE9001CA4AA /* MoritaShootingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDF4AF61249B2CE9001CA4AA /* MoritaShootingUITests.swift */,
+				BDF4AF63249B2CE9001CA4AA /* Info.plist */,
+			);
+			path = MoritaShootingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDF4AF37249B2CDF001CA4AA /* MoritaShooting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDF4AF66249B2CE9001CA4AA /* Build configuration list for PBXNativeTarget "MoritaShooting" */;
+			buildPhases = (
+				BDF4AF34249B2CDF001CA4AA /* Sources */,
+				BDF4AF35249B2CDF001CA4AA /* Frameworks */,
+				BDF4AF36249B2CDF001CA4AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoritaShooting;
+			productName = MoritaShooting;
+			productReference = BDF4AF38249B2CDF001CA4AA /* MoritaShooting.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDF4AF51249B2CE9001CA4AA /* MoritaShootingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDF4AF69249B2CE9001CA4AA /* Build configuration list for PBXNativeTarget "MoritaShootingTests" */;
+			buildPhases = (
+				BDF4AF4E249B2CE9001CA4AA /* Sources */,
+				BDF4AF4F249B2CE9001CA4AA /* Frameworks */,
+				BDF4AF50249B2CE9001CA4AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDF4AF54249B2CE9001CA4AA /* PBXTargetDependency */,
+			);
+			name = MoritaShootingTests;
+			productName = MoritaShootingTests;
+			productReference = BDF4AF52249B2CE9001CA4AA /* MoritaShootingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDF4AF5C249B2CE9001CA4AA /* MoritaShootingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDF4AF6C249B2CE9001CA4AA /* Build configuration list for PBXNativeTarget "MoritaShootingUITests" */;
+			buildPhases = (
+				BDF4AF59249B2CE9001CA4AA /* Sources */,
+				BDF4AF5A249B2CE9001CA4AA /* Frameworks */,
+				BDF4AF5B249B2CE9001CA4AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDF4AF5F249B2CE9001CA4AA /* PBXTargetDependency */,
+			);
+			name = MoritaShootingUITests;
+			productName = MoritaShootingUITests;
+			productReference = BDF4AF5D249B2CE9001CA4AA /* MoritaShootingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDF4AF30249B2CDF001CA4AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = fukasawayuki;
+				TargetAttributes = {
+					BDF4AF37249B2CDF001CA4AA = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					BDF4AF51249B2CE9001CA4AA = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = BDF4AF37249B2CDF001CA4AA;
+					};
+					BDF4AF5C249B2CE9001CA4AA = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = BDF4AF37249B2CDF001CA4AA;
+					};
+				};
+			};
+			buildConfigurationList = BDF4AF33249B2CDF001CA4AA /* Build configuration list for PBXProject "MoritaShooting" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDF4AF2F249B2CDF001CA4AA;
+			productRefGroup = BDF4AF39249B2CDF001CA4AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDF4AF37249B2CDF001CA4AA /* MoritaShooting */,
+				BDF4AF51249B2CE9001CA4AA /* MoritaShootingTests */,
+				BDF4AF5C249B2CE9001CA4AA /* MoritaShootingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDF4AF36249B2CDF001CA4AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF4AF47249B2CDF001CA4AA /* Main.storyboard in Resources */,
+				BDF4AF3E249B2CDF001CA4AA /* GameScene.sks in Resources */,
+				BDF4AF49249B2CE8001CA4AA /* Assets.xcassets in Resources */,
+				BDF4AF70249B86BD001CA4AA /* explosion.sks in Resources */,
+				BDF4AF4C249B2CE8001CA4AA /* LaunchScreen.storyboard in Resources */,
+				BDF4AF40249B2CDF001CA4AA /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF4AF50249B2CE9001CA4AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF4AF5B249B2CE9001CA4AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDF4AF34249B2CDF001CA4AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF4AF42249B2CDF001CA4AA /* GameScene.swift in Sources */,
+				BDF4AF44249B2CDF001CA4AA /* GameViewController.swift in Sources */,
+				BDF4AF3C249B2CDF001CA4AA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF4AF4E249B2CE9001CA4AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF4AF57249B2CE9001CA4AA /* MoritaShootingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF4AF59249B2CE9001CA4AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF4AF62249B2CE9001CA4AA /* MoritaShootingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDF4AF54249B2CE9001CA4AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDF4AF37249B2CDF001CA4AA /* MoritaShooting */;
+			targetProxy = BDF4AF53249B2CE9001CA4AA /* PBXContainerItemProxy */;
+		};
+		BDF4AF5F249B2CE9001CA4AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDF4AF37249B2CDF001CA4AA /* MoritaShooting */;
+			targetProxy = BDF4AF5E249B2CE9001CA4AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDF4AF45249B2CDF001CA4AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDF4AF46249B2CDF001CA4AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDF4AF4A249B2CE8001CA4AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDF4AF4B249B2CE8001CA4AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDF4AF64249B2CE9001CA4AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDF4AF65249B2CE9001CA4AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDF4AF67249B2CE9001CA4AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48RG94V73S;
+				INFOPLIST_FILE = MoritaShooting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = naist.sd.MoritaShooting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDF4AF68249B2CE9001CA4AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48RG94V73S;
+				INFOPLIST_FILE = MoritaShooting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = naist.sd.MoritaShooting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BDF4AF6A249B2CE9001CA4AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48RG94V73S;
+				INFOPLIST_FILE = MoritaShootingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = naist.sd.MoritaShootingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoritaShooting.app/MoritaShooting";
+			};
+			name = Debug;
+		};
+		BDF4AF6B249B2CE9001CA4AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48RG94V73S;
+				INFOPLIST_FILE = MoritaShootingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = naist.sd.MoritaShootingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoritaShooting.app/MoritaShooting";
+			};
+			name = Release;
+		};
+		BDF4AF6D249B2CE9001CA4AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48RG94V73S;
+				INFOPLIST_FILE = MoritaShootingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = naist.sd.MoritaShootingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MoritaShooting;
+			};
+			name = Debug;
+		};
+		BDF4AF6E249B2CE9001CA4AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48RG94V73S;
+				INFOPLIST_FILE = MoritaShootingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = naist.sd.MoritaShootingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MoritaShooting;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDF4AF33249B2CDF001CA4AA /* Build configuration list for PBXProject "MoritaShooting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF4AF64249B2CE9001CA4AA /* Debug */,
+				BDF4AF65249B2CE9001CA4AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDF4AF66249B2CE9001CA4AA /* Build configuration list for PBXNativeTarget "MoritaShooting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF4AF67249B2CE9001CA4AA /* Debug */,
+				BDF4AF68249B2CE9001CA4AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDF4AF69249B2CE9001CA4AA /* Build configuration list for PBXNativeTarget "MoritaShootingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF4AF6A249B2CE9001CA4AA /* Debug */,
+				BDF4AF6B249B2CE9001CA4AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDF4AF6C249B2CE9001CA4AA /* Build configuration list for PBXNativeTarget "MoritaShootingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF4AF6D249B2CE9001CA4AA /* Debug */,
+				BDF4AF6E249B2CE9001CA4AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDF4AF30249B2CDF001CA4AA /* Project object */;
+}
